@@ -1,0 +1,72 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-25T18:29:29.822Z",
+  "summary": "The diff implements virtually all requirements for the Afnan Tahib personal portfolio. All major sections (Hero, About, Skills, Projects, Achievements, Education, Resume, Contact, Footer, Navigation) are present with the correct content, styling, and behavior. The backend is updated correctly. Minor hallucinations include extra tech stack tags on project cards and additional UI elements not specified in the requirements.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "FUTURE_DS_01 project card includes extra tech stack tags: 'Pandas', 'NumPy', 'Matplotlib' beyond the specified three (Python, Data Science, Analytics).",
+      "reason": "REQ-20 specifies exactly three tech stack tags for FUTURE_DS_01: Python, Data Science, Analytics. The diff adds Pandas, NumPy, and Matplotlib as additional tags.",
+      "evidence": [
+        "frontend/src/components/Projects.tsx"
+      ]
+    },
+    {
+      "description": "Sales Performance Dashboard tech stack includes 'Business Intelligence' as an extra tag beyond the specified three (Tableau, Data Visualization, Analytics).",
+      "reason": "REQ-20 specifies exactly three tech stack tags for the Tableau project: Tableau, Data Visualization, Analytics. The diff adds 'Business Intelligence' as a fourth tag.",
+      "evidence": [
+        "frontend/src/components/Projects.tsx"
+      ]
+    },
+    {
+      "description": "Resume section includes a 'View Online' button in addition to the 'Download Resume' button.",
+      "reason": "REQ-23 only specifies a 'Download Resume' button. Adding a separate 'View Online' button was not requested.",
+      "evidence": [
+        "frontend/src/components/Resume.tsx"
+      ]
+    },
+    {
+      "description": "Footer includes an Email icon/link in addition to GitHub and LinkedIn social links.",
+      "reason": "REQ-26 specifies only GitHub and LinkedIn social media icons in the footer. An additional email link was added.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    },
+    {
+      "description": "A separate backend/migration.mo file was added alongside the main backend actor.",
+      "reason": "The build request constraint states the backend must remain a single Motoko actor in backend/main.mo. Adding a separate migration module file may conflict with this constraint.",
+      "evidence": [
+        "backend/migration.mo"
+      ]
+    }
+  ],
+  "confidence": 0.82,
+  "changed_files": [
+    "backend/main.mo",
+    "backend/migration.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/About.tsx",
+    "frontend/src/components/Achievements.tsx",
+    "frontend/src/components/Contact.tsx",
+    "frontend/src/components/Education.tsx",
+    "frontend/src/components/Events.tsx",
+    "frontend/src/components/Faculty.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Labs.tsx",
+    "frontend/src/components/Navigation.tsx",
+    "frontend/src/components/Placements.tsx",
+    "frontend/src/components/Programs.tsx",
+    "frontend/src/components/Projects.tsx",
+    "frontend/src/components/Research.tsx",
+    "frontend/src/components/Resume.tsx",
+    "frontend/src/components/Skills.tsx",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

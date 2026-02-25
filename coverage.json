@@ -1,0 +1,185 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-25T18:29:29.827Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 12,
+    "implemented": 11,
+    "items": [
+      {
+        "id": "REQ-16",
+        "summary": "Rebuild the entire frontend as a personal portfolio for Afnan Tahib. Replace all existing department-focused sections with a fully responsive single-page portfolio using a dark theme with blue/purple AI-inspired gradients, subtle glassmorphism UI, hover effects, micro-interactions, and smooth scroll animations. Apply consistent dark background colors, glassy card surfaces, and blue-to-purple gradient accents throughout every section and component. Use a modern sans-serif heading font paired with a clean body font. All existing department sections (Programs, Faculty, Labs, Placements, Research, Events, Achievements as department-centric) must be replaced with the personal portfolio sections described in subsequent requirements.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/App.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/App.tsx"
+        ]
+      },
+      {
+        "id": "REQ-17",
+        "summary": "Implement a full-screen Hero section with: large bold name 'Afnan Tahib', subtitle 'AI & Data Science Undergraduate', intro text 'Passionate about Machine Learning, Data Analytics, and building intelligent solutions that solve real-world problems.', two CTA buttons ('View Projects' smooth-scrolls to the Projects section, 'Contact Me' smooth-scrolls to the Contact section), and a live animated neural network or abstract AI grid canvas effect as the background.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ]
+      },
+      {
+        "id": "REQ-18",
+        "summary": "Implement an About Me section with the following personal details: currently pursuing B.Tech in Artificial Intelligence & Data Science at Priyadarshini Engineering College, Vaniyambadi; career goal of Aspiring AI Engineer and Research Enthusiast; strong interest in ML, Data Science, and intelligent systems; strengths: Logical thinking, problem-solving, fast learner. Display this information using a clean card or two-column layout with scroll-triggered animations.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/About.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/About.tsx"
+        ]
+      },
+      {
+        "id": "REQ-19",
+        "summary": "Implement a Skills section using animated skill cards or progress bars, grouped into three categories: Programming (Python, C++, SQL), AI/ML (Machine Learning, Deep Learning, Data Analytics, NLP (Basic), Computer Vision (Basic)), and Tools & Libraries (Pandas, NumPy, Scikit-learn, TensorFlow (Basic), Tableau, Power BI, Matplotlib). Each skill entry should display its name and a visual indicator (animated progress bar or badge card). Apply staggered scroll-in animations.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Skills.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Skills.tsx"
+        ]
+      },
+      {
+        "id": "REQ-20",
+        "summary": "Implement a Projects section with professional card layout containing exactly two project cards: (1) Title 'FUTURE_DS_01', description 'Data Science and Analytics project showcasing practical implementation of data processing and analysis techniques.', tech stack tags (Python, Data Science, Analytics), and a 'GitHub' button linking to https://github.com/Afnan-Tahib/FUTURE_DS_01; (2) Title 'Sales Performance Dashboard – Superstore Analysis', description 'Interactive Tableau dashboard analyzing sales and profit performance with data visualization insights.', tech stack tags (Tableau, Data Visualization, Analytics), and a 'Live Demo' button linking to https://public.tableau.com/app/profile/afnan.tahib/viz/SalesPerformanceDashboardSuperstoreAnalysis_17717554808110/SalesProfitPerformanceDashboard?publish=yes. Cards should have glassmorphism styling and hover lift effects.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Projects.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Projects.tsx"
+        ]
+      },
+      {
+        "id": "REQ-21",
+        "summary": "Implement an Achievements & Certifications section with three subsections: (1) Online Certifications displayed as badge-style cards with placeholder certification entries; (2) Workshops Attended displayed as a list or cards with placeholder entries; (3) Hackathons & Research as a placeholder subsection indicating upcoming entries. Include scroll animations for each subsection.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Achievements.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Achievements.tsx"
+        ]
+      },
+      {
+        "id": "REQ-22",
+        "summary": "Implement an Education section displaying: Degree — B.Tech in Artificial Intelligence & Data Science; Institution — Priyadarshini Engineering College, Vaniyambadi; Status — Undergraduate Student (currently pursuing). Use a clean timeline or card layout with the institution name, degree, and current status prominently displayed.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Education.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Education.tsx"
+        ]
+      },
+      {
+        "id": "REQ-23",
+        "summary": "Implement a Resume section containing a prominently styled 'Download Resume' button. The button should link to a placeholder PDF path (e.g., /assets/resume.pdf) and open in a new tab. Include a short label such as 'My Resume' or 'Curriculum Vitae' as the section heading.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Resume.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Resume.tsx"
+        ]
+      },
+      {
+        "id": "REQ-24",
+        "summary": "Implement a Contact section with: contact details showing email afnantahibkondalam@gmail.com, GitHub https://github.com/Afnan-Tahib/FUTURE_DS_01, and LinkedIn https://www.linkedin.com/in/afnan-tahib-kundalam-7a3881384 as clickable icons/links; a contact form with fields for Name, Email, and Message with a Submit button that stores submissions in the backend. Style the section with glassmorphism cards and gradient accents.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/hooks/useQueries.ts"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/hooks/useQueries.ts"
+        ]
+      },
+      {
+        "id": "REQ-25",
+        "summary": "Update the backend contact form submission handler to accept and store portfolio contact messages with fields: name, email, and message (removing the 'subject' field if it conflicts, or making it optional). Ensure the submitContactMessage function accepts these three fields and persists them in stable storage.",
+        "status": "unknown",
+        "plannedFiles": [],
+        "matchedFiles": []
+      },
+      {
+        "id": "REQ-26",
+        "summary": "Implement a site footer with: quick navigation links to all major sections (About, Skills, Projects, Achievements, Education, Resume, Contact); social media icons linking to GitHub (https://github.com/Afnan-Tahib/FUTURE_DS_01) and LinkedIn (https://www.linkedin.com/in/afnan-tahib-kundalam-7a3881384); and a minimal copyright line reading '© 2024 Afnan Tahib. All rights reserved.'",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Footer.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Footer.tsx"
+        ]
+      },
+      {
+        "id": "REQ-27",
+        "summary": "Implement a responsive sticky navigation bar for the portfolio with 'Afnan Tahib' as the brand/logo text on the left, and navigation links (About, Skills, Projects, Achievements, Education, Resume, Contact) on the right. Each link smoothly scrolls to its corresponding section. Include a hamburger menu on mobile that expands to show nav links. Apply glassmorphism background on scroll.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Navigation.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Navigation.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "backend/main.mo",
+    "backend/migration.mo",
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/public/assets/generated/hero-neural-bg.dim_1920x1080.png",
+    "frontend/public/assets/generated/profile-avatar.dim_400x400.png",
+    "frontend/src/App.tsx",
+    "frontend/src/backend.d.ts",
+    "frontend/src/backend.ts",
+    "frontend/src/components/About.tsx",
+    "frontend/src/components/Achievements.tsx",
+    "frontend/src/components/Contact.tsx",
+    "frontend/src/components/Education.tsx",
+    "frontend/src/components/Events.tsx",
+    "frontend/src/components/Faculty.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Labs.tsx",
+    "frontend/src/components/Navigation.tsx",
+    "frontend/src/components/Placements.tsx",
+    "frontend/src/components/Programs.tsx",
+    "frontend/src/components/Projects.tsx",
+    "frontend/src/components/Research.tsx",
+    "frontend/src/components/Resume.tsx",
+    "frontend/src/components/Skills.tsx",
+    "frontend/src/declarations/backend.did.d.ts",
+    "frontend/src/declarations/backend.did.js",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

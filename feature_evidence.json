@@ -1,0 +1,215 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-rebuild-the-entire-frontend-as-a-personal-portfolio-for-afnan-tahib-replace-all-existing-department-focused-sections-with-a-fully-responsive-single-page-portfolio-using-a-dark-theme-with-blue-purple-ai-inspired-gradients-subtle-glassmorphism-ui-hover-effects-micro-interactions-and-smooth-scroll-animations-apply-consistent-dark-background-colors-glassy-card-surfaces-and-blue-to-purple-gradient-accents-throughout-every-section-and-component-use-a-modern-sans-serif-heading-font-paired-with-a-clean-body-font-all-existing-department-sections-programs-faculty-labs-placements-research-events-achievements-as-department-centric-must-be-replaced-with-the-personal-portfolio-sections-described-in-subsequent-requirements",
+      "featureTitle": "Rebuild the entire frontend as a personal portfolio for Afnan Tahib. Replace all existing department-focused sections with a fully responsive single-page portfolio using a dark theme with blue/purple AI-inspired gradients, subtle glassmorphism UI, hover effects, micro-interactions, and smooth scroll animations. Apply consistent dark background colors, glassy card surfaces, and blue-to-purple gradient accents throughout every section and component. Use a modern sans-serif heading font paired with a clean body font. All existing department sections (Programs, Faculty, Labs, Placements, Research, Events, Achievements as department-centric) must be replaced with the personal portfolio sections described in subsequent requirements.",
+      "files": [
+        "frontend/src/App.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-full-screen-hero-section-with-large-bold-name-afnan-tahib-subtitle-ai-data-science-undergraduate-intro-text-passionate-about-machine-learning-data-analytics-and-building-intelligent-solutions-that-solve-real-world-problems-two-cta-buttons-view-projects-smooth-scrolls-to-the-projects-section-contact-me-smooth-scrolls-to-the-contact-section-and-a-live-animated-neural-network-or-abstract-ai-grid-canvas-effect-as-the-background",
+      "featureTitle": "Implement a full-screen Hero section with: large bold name 'Afnan Tahib', subtitle 'AI & Data Science Undergraduate', intro text 'Passionate about Machine Learning, Data Analytics, and building intelligent solutions that solve real-world problems.', two CTA buttons ('View Projects' smooth-scrolls to the Projects section, 'Contact Me' smooth-scrolls to the Contact section), and a live animated neural network or abstract AI grid canvas effect as the background.",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-17"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-an-about-me-section-with-the-following-personal-details-currently-pursuing-b-tech-in-artificial-intelligence-data-science-at-priyadarshini-engineering-college-vaniyambadi-career-goal-of-aspiring-ai-engineer-and-research-enthusiast-strong-interest-in-ml-data-science-and-intelligent-systems-strengths-logical-thinking-problem-solving-fast-learner-display-this-information-using-a-clean-card-or-two-column-layout-with-scroll-triggered-animations",
+      "featureTitle": "Implement an About Me section with the following personal details: currently pursuing B.Tech in Artificial Intelligence & Data Science at Priyadarshini Engineering College, Vaniyambadi; career goal of Aspiring AI Engineer and Research Enthusiast; strong interest in ML, Data Science, and intelligent systems; strengths: Logical thinking, problem-solving, fast learner. Display this information using a clean card or two-column layout with scroll-triggered animations.",
+      "files": [
+        "frontend/src/components/About.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-18"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-skills-section-using-animated-skill-cards-or-progress-bars-grouped-into-three-categories-programming-python-c-sql-ai-ml-machine-learning-deep-learning-data-analytics-nlp-basic-computer-vision-basic-and-tools-libraries-pandas-numpy-scikit-learn-tensorflow-basic-tableau-power-bi-matplotlib-each-skill-entry-should-display-its-name-and-a-visual-indicator-animated-progress-bar-or-badge-card-apply-staggered-scroll-in-animations",
+      "featureTitle": "Implement a Skills section using animated skill cards or progress bars, grouped into three categories: Programming (Python, C++, SQL), AI/ML (Machine Learning, Deep Learning, Data Analytics, NLP (Basic), Computer Vision (Basic)), and Tools & Libraries (Pandas, NumPy, Scikit-learn, TensorFlow (Basic), Tableau, Power BI, Matplotlib). Each skill entry should display its name and a visual indicator (animated progress bar or badge card). Apply staggered scroll-in animations.",
+      "files": [
+        "frontend/src/components/Skills.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-19"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-projects-section-with-professional-card-layout-containing-exactly-two-project-cards-1-title-future-ds-01-description-data-science-and-analytics-project-showcasing-practical-implementation-of-data-processing-and-analysis-techniques-tech-stack-tags-python-data-science-analytics-and-a-github-button-linking-to-https-github-com-afnan-tahib-future-ds-01-2-title-sales-performance-dashboard-superstore-analysis-description-interactive-tableau-dashboard-analyzing-sales-and-profit-performance-with-data-visualization-insights-tech-stack-tags-tableau-data-visualization-analytics-and-a-live-demo-button-linking-to-https-public-tableau-com-app-profile-afnan-tahib-viz-salesperformancedashboardsuperstoreanalysis-17717554808110-salesprofitperformancedashboard-publish-yes-cards-should-have-glassmorphism-styling-and-hover-lift-effects",
+      "featureTitle": "Implement a Projects section with professional card layout containing exactly two project cards: (1) Title 'FUTURE_DS_01', description 'Data Science and Analytics project showcasing practical implementation of data processing and analysis techniques.', tech stack tags (Python, Data Science, Analytics), and a 'GitHub' button linking to https://github.com/Afnan-Tahib/FUTURE_DS_01; (2) Title 'Sales Performance Dashboard – Superstore Analysis', description 'Interactive Tableau dashboard analyzing sales and profit performance with data visualization insights.', tech stack tags (Tableau, Data Visualization, Analytics), and a 'Live Demo' button linking to https://public.tableau.com/app/profile/afnan.tahib/viz/SalesPerformanceDashboardSuperstoreAnalysis_17717554808110/SalesProfitPerformanceDashboard?publish=yes. Cards should have glassmorphism styling and hover lift effects.",
+      "files": [
+        "frontend/src/components/Projects.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-20"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-an-achievements-certifications-section-with-three-subsections-1-online-certifications-displayed-as-badge-style-cards-with-placeholder-certification-entries-2-workshops-attended-displayed-as-a-list-or-cards-with-placeholder-entries-3-hackathons-research-as-a-placeholder-subsection-indicating-upcoming-entries-include-scroll-animations-for-each-subsection",
+      "featureTitle": "Implement an Achievements & Certifications section with three subsections: (1) Online Certifications displayed as badge-style cards with placeholder certification entries; (2) Workshops Attended displayed as a list or cards with placeholder entries; (3) Hackathons & Research as a placeholder subsection indicating upcoming entries. Include scroll animations for each subsection.",
+      "files": [
+        "frontend/src/components/Achievements.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-21"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-an-education-section-displaying-degree-b-tech-in-artificial-intelligence-data-science-institution-priyadarshini-engineering-college-vaniyambadi-status-undergraduate-student-currently-pursuing-use-a-clean-timeline-or-card-layout-with-the-institution-name-degree-and-current-status-prominently-displayed",
+      "featureTitle": "Implement an Education section displaying: Degree — B.Tech in Artificial Intelligence & Data Science; Institution — Priyadarshini Engineering College, Vaniyambadi; Status — Undergraduate Student (currently pursuing). Use a clean timeline or card layout with the institution name, degree, and current status prominently displayed.",
+      "files": [
+        "frontend/src/components/Education.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-resume-section-containing-a-prominently-styled-download-resume-button-the-button-should-link-to-a-placeholder-pdf-path-e-g-assets-resume-pdf-and-open-in-a-new-tab-include-a-short-label-such-as-my-resume-or-curriculum-vitae-as-the-section-heading",
+      "featureTitle": "Implement a Resume section containing a prominently styled 'Download Resume' button. The button should link to a placeholder PDF path (e.g., /assets/resume.pdf) and open in a new tab. Include a short label such as 'My Resume' or 'Curriculum Vitae' as the section heading.",
+      "files": [
+        "frontend/src/components/Resume.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-23"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-contact-section-with-contact-details-showing-email-afnantahibkondalam-gmail-com-github-https-github-com-afnan-tahib-future-ds-01-and-linkedin-https-www-linkedin-com-in-afnan-tahib-kundalam-7a3881384-as-clickable-icons-links-a-contact-form-with-fields-for-name-email-and-message-with-a-submit-button-that-stores-submissions-in-the-backend-style-the-section-with-glassmorphism-cards-and-gradient-accents",
+      "featureTitle": "Implement a Contact section with: contact details showing email afnantahibkondalam@gmail.com, GitHub https://github.com/Afnan-Tahib/FUTURE_DS_01, and LinkedIn https://www.linkedin.com/in/afnan-tahib-kundalam-7a3881384 as clickable icons/links; a contact form with fields for Name, Email, and Message with a Submit button that stores submissions in the backend. Style the section with glassmorphism cards and gradient accents.",
+      "files": [
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/hooks/useQueries.ts"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-24"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-site-footer-with-quick-navigation-links-to-all-major-sections-about-skills-projects-achievements-education-resume-contact-social-media-icons-linking-to-github-https-github-com-afnan-tahib-future-ds-01-and-linkedin-https-www-linkedin-com-in-afnan-tahib-kundalam-7a3881384-and-a-minimal-copyright-line-reading-2024-afnan-tahib-all-rights-reserved",
+      "featureTitle": "Implement a site footer with: quick navigation links to all major sections (About, Skills, Projects, Achievements, Education, Resume, Contact); social media icons linking to GitHub (https://github.com/Afnan-Tahib/FUTURE_DS_01) and LinkedIn (https://www.linkedin.com/in/afnan-tahib-kundalam-7a3881384); and a minimal copyright line reading '© 2024 Afnan Tahib. All rights reserved.'",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-26"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-a-responsive-sticky-navigation-bar-for-the-portfolio-with-afnan-tahib-as-the-brand-logo-text-on-the-left-and-navigation-links-about-skills-projects-achievements-education-resume-contact-on-the-right-each-link-smoothly-scrolls-to-its-corresponding-section-include-a-hamburger-menu-on-mobile-that-expands-to-show-nav-links-apply-glassmorphism-background-on-scroll",
+      "featureTitle": "Implement a responsive sticky navigation bar for the portfolio with 'Afnan Tahib' as the brand/logo text on the left, and navigation links (About, Skills, Projects, Achievements, Education, Resume, Contact) on the right. Each link smoothly scrolls to its corresponding section. Include a hamburger menu on mobile that expands to show nav links. Apply glassmorphism background on scroll.",
+      "files": [
+        "frontend/src/components/Navigation.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-27"
+      ],
+      "confidence": "high"
+    }
+  ]
+}
